@@ -1,4 +1,4 @@
-# Curso_de_Java_Cod3r
+# Curso de Java Cod3r - Udemy
  Exercícios feitos durante o curso " Java 2021 COMPLETO: Do Zero ao Profissional + Projetos!".
  Alguns dos assuntos abordados são: 
 
