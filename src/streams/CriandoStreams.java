@@ -5,18 +5,19 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
+// Build ops 
 public class CriandoStreams {
 
 	public static void main(String[] args) {
 
 		Consumer<String> print = System.out::print;
 		
-		// passando os valores literais
+		// modo de criação estático
 		Stream<String> langs = Stream.of("Java", ", Go", ", Python\n");
 		// imprimindo os valores
 		langs.forEach(print);
 		
-		// construindo um array 
+		// construindo um array na forma literal que são passados na mesma linha
 		String[] maisLangs = {"C# ", "Perl ", "JS ", ".NET\n"};
 		Stream.of(maisLangs).forEach(print);
 		
