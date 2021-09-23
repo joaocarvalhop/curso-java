@@ -1,4 +1,4 @@
-# Curso de Java Cod3r - Udemy
+# Curso de Java Cod3r
  Exercícios feitos durante o curso " Java 2021 COMPLETO: Do Zero ao Profissional + Projetos!" ministrado pelo professor Leonardo Moura Leitão.
  Alguns dos assuntos abordados são: 
 
