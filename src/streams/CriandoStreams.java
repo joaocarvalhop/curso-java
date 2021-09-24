@@ -17,7 +17,7 @@ public class CriandoStreams {
 		// imprimindo os valores
 		langs.forEach(print);
 		
-		// construindo um array na forma literal que são passados na mesma linha
+		// construindo um array na forma literal que são passados na mesma linha (pouco usado)
 		String[] maisLangs = {"C# ", "Perl ", "JS ", ".NET\n"};
 		Stream.of(maisLangs).forEach(print);
 		
@@ -28,6 +28,7 @@ public class CriandoStreams {
 		// no caso vai do 1 ao 3 por isso só mostra Pearl e JS pq para no 3
 		Arrays.stream(maisLangs, 1, 3).forEach(print);
 		
+		// melhor forma de fazer quando se trata de listas
 		List<String> outrasLangs = Arrays.asList("C++ ", "PHP ", "Kotlin\n");
 		outrasLangs.stream().forEach(print);
 		
