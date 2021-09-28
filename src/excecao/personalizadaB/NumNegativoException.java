@@ -1,7 +1,7 @@
-package excecao.personalizadaA;
+package excecao.personalizadaB;
 
 @SuppressWarnings("serial")
-public class NumNegativoException extends RuntimeException {
+public class NumNegativoException extends Exception {
 
 	private String nomeDoAtributo;
 

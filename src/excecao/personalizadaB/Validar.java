@@ -1,13 +1,12 @@
-package excecao.personalizadaA;
+package excecao.personalizadaB;
 
 import excecao.FilterAluno;
 
 public class Validar {
-	
-	// private para a classe não ser instanciada
+
 	private Validar() {}
 
-	public static void aluno(FilterAluno aluno) {
+	public static void aluno(FilterAluno aluno) throws StringVaziaException, NumNegativoException {
 		if(aluno == null) {
 			throw new IllegalArgumentException("O aluno está nulo!");
 		}
