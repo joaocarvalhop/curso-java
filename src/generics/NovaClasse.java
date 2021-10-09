@@ -5,5 +5,5 @@ import java.util.List;
 
 public class NovaClasse {
 
-		List<String> listaA = Arrays.asList("1", "2", "3");
+		List<String> listaA = Arrays.asList("1", "2", "3", "4");
 }
