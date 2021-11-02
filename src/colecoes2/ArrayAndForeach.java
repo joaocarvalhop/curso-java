@@ -17,7 +17,7 @@ public class ArrayAndForeach {
 		notasPedro[4] = 4.0;
 
 		double totalJoao = 0;
-		// foreach>>> vc usa ele quando vc quiser percorrer uma lista partindo do começo
+		// foreach ---> vc usa ele quando vc quiser percorrer uma lista partindo do começo
 		// dela e terminando no final, que é o que acontece na maioria das vezes.
 		for (double notasJ : notasJoao) {
 			totalJoao += notasJ;
