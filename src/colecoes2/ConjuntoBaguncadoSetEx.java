@@ -23,7 +23,7 @@ public class ConjuntoBaguncadoSetEx {
 
 		// return true or false
 		System.out.println("Remove... " + conjunto.remove("a") + " - " + conjunto.remove('a'));
-		
+
 		// se contém determinado elemento
 		System.out.println("Contains... " + conjunto.contains(3.14));
 	}
