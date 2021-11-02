@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class ConjuntoBaguncadoSetEx {
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 
 		Set conjunto = new HashSet();
