@@ -15,11 +15,13 @@ public class Fila {
 		fila.offer("João");
 		// já o método add ele joga um erro caso não insira o dado
 		fila.add("Pedro");
-		
+
+		// trazem o primeiro da fila sem remover
 		System.out.println("Peek and Element... ");
 		System.out.println(fila.peek());
 		System.out.println(fila.element());
-		
+
+		// trazem o primeiro da fila e remove
 		System.out.println("Poll and remove... ");
 		System.out.println(fila.poll());
 		System.out.println(fila.remove());
